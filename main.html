@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Test task WA 2021</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<script defer src="script.js"></script>
+</head>
+
+
+<body>
+
+	<table id="container">
+		<tbody>
+			<tr>
+				<td id="input">
+					<input type="text" id="new">
+				</td>
+
+				<td id="add">
+					<button type="button" id="add-button" onclick="addTag(false)">Add</button>
+				</td>
+			</tr>
+
+			<tr>
+				<td id="tags" colspan="2">
+					<input type="checkbox" id="check"/> Readonly mode
+
+					<div id="show">
+						<div id='1' class="list-element">Tag 1
+							<button class="delete-button" type="button" onclick="deleteTag(1)">X</button>
+						</div>
+
+						<div id='2' class="list-element">Tag 2
+							<button class="delete-button" type="button" onclick="deleteTag(2)">X</button>
+						</div>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+</html>
